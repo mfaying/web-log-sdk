@@ -1,0 +1,46 @@
+{
+  "name": "web-log-sdk",
+  "version": "1.1.0",
+  "description": "log sdk for web",
+  "main": "index.js",
+  "scripts": {
+    "start": "./node_modules/.bin/webpack -w",
+    "build": "NODE_ENV=production ./node_modules/.bin/webpack --config webpack-prod.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mfaying/web-log-sdk.git"
+  },
+  "keywords": [
+    "web",
+    "log sdk",
+    "heatmap",
+    "circle select"
+  ],
+  "author": "mfaying",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mfaying/web-log-sdk/issues"
+  },
+  "homepage": "https://github.com/mfaying/web-log-sdk#readme",
+  "dependencies": {
+    "axios": "^0.19.0",
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-preset-env": "^1.6.0",
+    "babel-preset-stage-0": "^6.24.1",
+    "happypack": "^5.0.1",
+    "heatmap.js": "^2.0.5",
+    "lodash": "^4.17.15",
+    "platform": "1.3.4",
+    "webpack": "^3.4.0",
+    "webpack-parallel-uglify-plugin": "^1.0.0"
+  },
+  "devDependencies": {
+    "webpack-dev-server": "^2.6.1",
+    "eslint-loader": "^3.0.0",
+    "eslint": "^6.2.2",
+    "babel-eslint": "^10.0.3"
+  }
+}
